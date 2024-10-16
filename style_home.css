@@ -9,16 +9,20 @@ body {
 }
 
 /* Estilos del encabezado */
+@media screen and (max-width:600px) {
 header {
-    display: flex;
+    
+        display: flex;
     justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
     align-items: center;
     padding: 10px;
     background-color: #D0F6F0; /* Fondo claro del header */
     position: relative;
     z-index: 2; 
-
+    }
+    
 }
+
 
 /* Estilo para el logo en el header */
 .logo img {
